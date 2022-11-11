@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(/images/portada1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 60px;
+}
+
+.Formulario{
+    margin-top: 150px;
+    padding: 3px;
+}
+
+h1{
+    text-align: center;
+    color: #017143;
+    font-size: 40px;
+    padding: 70px 02px 0 0;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 88%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #027700;
+    text-align: center;
+    
+}
+
+.material-symbols-outlined{
+    text-align: center;
+    min-width: 50px;
+    text-align: center;
+    color: #017143;
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #017143;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+
+.link:hover{
+    color: cadetblue;
+}
+
+@media(min-width:768px){
+    .Formulario{
+        margin: auto;
+        width: 600px;
+        margin-top: 12  0px;
+        border-radius: 2%;
+    }
+}
